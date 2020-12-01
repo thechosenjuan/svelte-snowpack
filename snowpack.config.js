@@ -2,10 +2,11 @@
 module.exports = {
   mount: {
     /* ... */
+    // directory name: 'build directory'
+    public: "/",
+    src: "/_dist_",
   },
-  plugins: [
-    /* ... */
-  ],
+  plugins: ["@snowpack/plugin-svelte"],
   install: [
     /* ... */
   ],
